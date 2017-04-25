@@ -1,0 +1,126 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+.container
+{
+    margin: 0 auto;
+}
+
+figure
+{
+    margin: 0;
+}
+.centrar
+{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.titulo
+{
+    text-align: center;
+    
+    font-size: 2em;
+    text-shadow: 2px 2px 2px black;
+}
+
+#ee{
+    opacity: 1; 
+}
+
+.xd{
+   text-shadow:2px 2px 2px black ;
+}
+.xd2{
+   text-shadow:1px 1px 1px black;
+}
+.fondo_banner{
+    background-image: url("../img/fondo1.jpg");
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+}
+.bg_menu1{
+    background-image: url("../img/banner_bocaditos_min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+       
+}
+
+.fondo_nosotros{
+    background-color:rgba(255,255,255,0.9);
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 100vh;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  
+  .con{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  .encabezado {
+      font-size: 2em;
+      text-shadow:1px 1px 1px black;
+      
+  }
+  
+  .ts{
+      text-shadow:1px 1px 1px black;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
